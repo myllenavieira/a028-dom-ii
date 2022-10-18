@@ -16,4 +16,5 @@ function adicionaItem(event) {
 
 function removeItem(event) {
     event.target.remove();
+    console.log(event.target);
 }
